@@ -77,5 +77,27 @@ public class MyHashTable<K, V> {
         }
         return null;
     }
+    public V remove(K key){
+        int index = hash(key);
+        HashNode<K,V> node = chainArray[index];
+        V n= null;
+        if(node!=null && node.key.equals(key)){
+            n = node.value;
+            chainArray[index]= node.next;
+            size--;
+        }
+        else{
+            while(node!=null && node.next != null){
+                if (node.next.key.equals(key)){
+                    n= node.next.value;
+                    node.next= node.next.next;
+                    size--;
+                    break;
+                }
+                node= node.next;
+            }
+        }
+        return n;
+    }
 }
 
