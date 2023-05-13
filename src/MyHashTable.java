@@ -6,11 +6,25 @@ public class MyHashTable<K, V> {
         public HashNode(K key, V value){
             this.key = key;
             this.value = value;
+            this.next = null;
         }
-        @Override
-        public String toString(){
-            return "{" + key + " " + value + "}";
-        }
+    }
+    private int size;
+    private int capacity;
+    private HashNode<K,V>[] chainArray;
+    public MyHashTable() {
+        size = 0;
+        capacity = 11;
+        chainArray = new HashNode[capacity];
+    }
+    public MyHashTable(int M) {
+        capacity = M;
+        size = 0;
+        chainArray = new HashNode[capacity];
+    }
+    private int hash(K key) {
+        return key.hashCode();
     }
 
 }
+
