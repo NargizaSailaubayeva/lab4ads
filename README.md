@@ -279,3 +279,15 @@ public class Main {
     }
 }
 ```
+___
+
+## Installation
+IntelliJ IDEA 2022.3.1
+## Contributing
+***Bug reports and\or pull requests are*** 
+
+![gif](https://i.gifer.com/8CPR.gif)
+
+![welcome](https://media.tenor.com/4F0S8rm_t98AAAAC/thank-you-sticker-thanks-sticker.gif)
+
+![bye](https://media.tenor.com/Arsu0w_nD2EAAAAM/bob-anakshie.gif)
