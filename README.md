@@ -286,7 +286,7 @@ IntelliJ IDEA 2022.3.1
 ## Contributing
 ***Bug reports and\or pull requests are*** 
 
-![gif](https://i.gifer.com/8CPR.gif)
+![gif](https://cdn.dribbble.com/users/1117770/screenshots/2626626/welcome.gif)
 
 ![welcome](https://media.tenor.com/4F0S8rm_t98AAAAC/thank-you-sticker-thanks-sticker.gif)
 
