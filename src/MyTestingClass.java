@@ -8,4 +8,10 @@ public class MyTestingClass<K,V> {
         this.name = name;
         this.random = new Random();
     }
+    public int hashCode() {
+        int result = 17;
+        result = 31 * result + (id != null ? id.hashCode() : 0);
+        result = 31 * result + (name != null ? name.hashCode() : 0);
+        return result;
+    }
 }
