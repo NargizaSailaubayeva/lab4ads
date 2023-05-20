@@ -179,7 +179,7 @@ public class MyHashTable<K, V> {
         }
     }
 
-    public void remove(K key, V oldValue, V newValue) {
+    public void remove(K key, V oldValue, V newValue) { //defence task
         int index = hash(key);
         HashNode node = chainArray[index];
         while (node != null) {

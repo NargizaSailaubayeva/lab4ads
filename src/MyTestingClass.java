@@ -61,12 +61,12 @@ public class MyTestingClass<K, V> {
         nan.put(4, "mne");
         nan.put(49, "nan");
         nan.put(18, "egnan");
-        nan.remove(13, "sae", "ase");
+        nan.remove(13, "sae", "ase"); //defence task
         System.out.println(nan.getKey("mne")); // Outputs 4
         System.out.println(nan.get(4));// Outputs "mne"
         System.out.println(nan.contains("egnan")); // Outputs true
         System.out.println(nan.remove(18)); // Outputs "egnan"
         System.out.println(nan.get(49)); // Outputs "nan"
-        System.out.println(nan.remove(13)); //output "ase"
+        System.out.println(nan.remove(13)); //output "ase" defence task
     }
 }
